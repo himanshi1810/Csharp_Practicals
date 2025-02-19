@@ -16,6 +16,11 @@ namespace Practical02
         }
 
         //4th Step :- Define the Method
+        /** Summary of the method printInfo
+        * This method prints the customer account details.
+        * It displays bank name, customer name, and account number.
+        * Return type: void (does not return any value).
+         */
         public void printInfo()
         {
             Console.WriteLine("Bank Name : " + bank_name);
