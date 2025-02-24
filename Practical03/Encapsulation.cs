@@ -5,6 +5,12 @@ namespace Practical03
     {
         private string brand;
         private string model;
+        //Constuctor for avoiding null values
+        public Laptop()
+        {
+            brand = "No Brand";
+            model = "No Model";
+        }
         //Get and set method for brand and model
         public string Brand
         {
