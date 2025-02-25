@@ -12,26 +12,22 @@ namespace Practical04
         //Method CalculateAverage is for calculating the average marks of the student
         public decimal CalculateAverage()
         {
-            decimal sum = 0;
-            for (int i = 0; i < 5; i++)
-            {
-                sum += Marks[i];
-            }
-            AverageMarks = sum / 5;
+            AverageMarks = Marks.Average(); 
             return AverageMarks;
         }
         //Method GetGrade is pattern matching with switch which is used to return the grade of the student according to the average marks
-        public string GetGrade()
+        public string GetGrade(decimal marks)
         {
-            switch (AverageMarks)
+            int marksInt = Convert.ToInt32(marks);
+            switch (marksInt)
             {
-                case var d when d > 90:
+                case > 90:
                     return "A";
-                case var d when d > 80:
+                case > 80:
                     return "B";
-                case var d when d > 70:
+                case > 70:
                     return "C";
-                case var d when d < 70:
+                case < 70:
                     return "D";
                 default:
                     return "Having Exception";
