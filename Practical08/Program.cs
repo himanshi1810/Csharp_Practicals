@@ -1,6 +1,4 @@
-using Practical08.Helpers;
-using Practical08.Interface;
-using Practical08.Models;
+using Practical08;
 
 // Create address
 Address address = new Address("123 Ramdevnagar", "Ahmedabad", "Gujarat", "10001");

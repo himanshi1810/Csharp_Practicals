@@ -1,7 +1,4 @@
-﻿using Practical08.Exceptions;
-using Practical08.Interface;
-
-namespace Practical08.Models
+namespace Practical08
 {
     //Overriding the method of LibraryItem 
     public class Journal : LibraryItem, IBorrowable

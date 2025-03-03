@@ -1,6 +1,4 @@
-﻿using Practical08.Models;
-
-namespace Practical08.Helpers
+namespace Practical08
 {
     public static class LibraryHelper
     {

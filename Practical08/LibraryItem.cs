@@ -1,4 +1,4 @@
-﻿namespace Practical08.Models
+namespace Practical08
 {
     //To achieve abstaction and I don't want to show unwanted implementation
     public abstract class LibraryItem

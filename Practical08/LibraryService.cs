@@ -1,7 +1,4 @@
-﻿using Practical08.Exceptions;
-using Practical08.Models;
-
-namespace Practical08.Interface
+namespace Practical08
 {
     //I can Achieve Method Overloading and also in this program custom exception I can thorw.
     public class LibraryService
@@ -43,7 +40,7 @@ namespace Practical08.Interface
                 }
                 catch (ItemAlreadyBorrowedException ex)
                 {
-                    throw new ItemAlreadyBorrowedException($"Item with ID {itemId} is already borrowed.");
+                    throw new ItemAlreadyBorrowedException($"Item with ID {itemId} is already borrowed." + ex.Message);
                 }
             }
             else

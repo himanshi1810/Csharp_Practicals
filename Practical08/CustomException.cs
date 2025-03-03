@@ -1,4 +1,4 @@
-﻿namespace Practical08.Exceptions
+namespace Practical08
 {
     //Here I define Some Custom Exception Which I need
     public class ItemNotFoundException : Exception

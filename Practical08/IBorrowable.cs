@@ -1,4 +1,4 @@
-﻿namespace Practical08.Interface
+namespace Practical08
 {
     //I want this method in further use but don't want to show its implementation
     public interface IBorrowable

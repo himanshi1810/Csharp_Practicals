@@ -1,4 +1,4 @@
-﻿namespace Practical08.Models
+namespace Practical08
 {
     //Here Encapsulation We can achieve and can Use for other classes
     public class Address

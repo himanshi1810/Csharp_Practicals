@@ -1,4 +1,4 @@
-﻿namespace Practical08.Models
+namespace Practical08
 {
     //Here Encapsulation Is Demonstrated And Also we can Inherit from other classes
     public class User
