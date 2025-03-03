@@ -41,7 +41,8 @@ namespace Practical06
 
             // Start the process
             process.StartProcess();
-          
+
+            Console.ReadLine();
         }
 
         // Event handler method
